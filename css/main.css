@@ -26,14 +26,16 @@ aside {
 }
 
 footer {
+    float: left;
     background: #8901FF;
+    width: 100%;
 }
 
 /*Placeholder Debug Boxes*/
 
 .debug-box {
     height: 50px;
-    background: rgba(0,0,0,0.2);
+    /* background: rgba(0,0,0,0.2); */
     border: 1px solid rgba(0,0,0,0.2);
 }
 
@@ -56,16 +58,28 @@ footer {
     margin-bottom: 30px;
 }
 
-/*Main Content Styling*/
-
-.page-title {
-    background-color: #ABCFE8;
-    border-bottom: 20px solid #0186FE;
+.mb-20 {
+    margin-bottom: 20px;
 }
 
-.main-content {
+
+/*Main Content Styling*/
+
+.blue-container {
+    float: left;
+    width: 100%;
+    background: #0286FD;
+    margin-bottom: 10px;
+}
+
+.page-title {
+    background: #ABCFE8;
+}
+
+.central-topic {
     float: left;
     width: 50%;
     background: #ABCFE8;
-    border: 0px 10px 10px 15px solid #0186FE;
+    padding: 0 15px;
+    background-clip: content-box;
 }
