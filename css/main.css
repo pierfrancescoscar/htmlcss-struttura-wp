@@ -19,6 +19,16 @@ header {
     background-color: #E1D67A;
 }
 
+aside {
+    float: left;
+    width: 25%;
+    background: #ABCFE8;
+}
+
+footer {
+    background: #8901FF;
+}
+
 /*Placeholder Debug Boxes*/
 
 .debug-box {
@@ -44,4 +54,18 @@ header {
 
 .mb-30 {
     margin-bottom: 30px;
+}
+
+/*Main Content Styling*/
+
+.page-title {
+    background-color: #ABCFE8;
+    border-bottom: 20px solid #0186FE;
+}
+
+.main-content {
+    float: left;
+    width: 50%;
+    background: #ABCFE8;
+    border: 0px 10px 10px 15px solid #0186FE;
 }
