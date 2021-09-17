@@ -1,0 +1,47 @@
+/*General Settings*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+header {
+    background-color: #E57AE6;
+}
+
+.hero {
+    background-color: #E1D67A;
+}
+
+/*Placeholder Debug Boxes*/
+
+.debug-box {
+    height: 50px;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+/*Clearfix*/
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+/*Padding and Margin Utilities*/
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
